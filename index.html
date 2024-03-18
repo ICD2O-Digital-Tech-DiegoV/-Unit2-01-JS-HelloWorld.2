@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <!-- styles sheet for MDL -->
+    <link rel="stylesheet" href="./style.css">
+      
+    <meta charset="utf-8">
+    <meta name="description" content="My first webpage, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Ms Raffin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My first webpage, with a JS file</title>
   </head>
   <body>
     <script src="./js/script.js"></script>
-    <h1> Math with JS</h1>
-    <div> id="add-math"        </div>
-    
-    <p>Paragraph</p>
+    <h1>Basic Math done by JS</h1>
+    <div id="add-math">8 + 6 = ?</div>
+    <div id="subtract-math">22 - 8 = ?</div>
+    <div id="multiply-math">5 + 5 * 5 = ?</div>
+    <div id="divide-math">(100 / 10) + 5 = ?</div>
+    <div id="exponent-math">10 + 5³ = ?</div>
+    <div id="square-root-math">√(100000) = ?</div>
+    <br>
+    <button onclick="doMathClicked()">Do math</button>
   </body>
+
+  <footer>
+    <h2> Area and Perimiter of a Rectangle in JS</h2>
+    
+     <script src="./js/2_script.js"></script>
+    <p>Area of a rectangle</p>
+    <div id="area-math">Area = 8 * 12</div>
+    <p>Perimiter of a rectangle</p>
+    <div id="perimiter-math">Perimiter = (8 + 12) * 2</div>
+    <button onclick="doMathClicked()">Do math</button>
+  </footer>
 </html>
